@@ -1,0 +1,437 @@
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-radio:checked + label:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #99a1a7;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.regular-radio:checked + label {
+	background-color: #e9ecee;
+	color: #99a1a7;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.big-radio + label {
+    padding: 10px;
+}
+
+.big-radio:checked + label:after {
+    width: 15px;
+    height: 14px;
+    left: 3px;
+    top: 3px;
+}
+
+
+
+.red-color {
+	color: red;
+}
+
+.close-icon {
+	width: 16px;
+    height: 16px;
+    float: right;
+}
+
+.ui-dialog {
+	z-index: 1000 !important;
+}
+
+.ui-dialog-titlebar span.ui-dialog-title {
+	color: white !important;
+}
+
+.view-tasks-body {
+	height: 455px;
+}
+
+.navbar-static-top {
+	z-index: 101!important;
+}
+
+#task-status {
+	width: 100%;
+    margin-bottom: 0px;
+    margin-top: -7px;
+    margin-left: 13px;
+}
+
+/*** View All tasks styling start ***/
+#data-panel {
+	overflow: auto;
+	margin-top: -3%;
+    margin-left: -2%;
+    height: 98%;
+}
+
+.table {
+   /*  width: 185% !important;
+    max-width: 185% !important;
+    margin-bottom: 6%; */
+}
+
+#taskDetailsTable th {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    font-size: 12px !important;
+}
+
+#taskDetailsTable td {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    font-size: 11px !important;
+}
+
+.myTaskTable th {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    font-size: 12px !important;
+}
+
+.myTaskTable td {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    font-size: 11px !important;
+}
+
+/*** View All tasks styling end ***/
+
+/*** view all tasks Pagination styles start ***/
+#pagination-panel {
+	margin-top: 1%;
+    width: 150%;
+    margin-left: 0%;
+}
+
+.goto-input {
+	width:8% !important;
+	margin-left: 41%;
+    margin-top: -34px;
+}
+
+.goto-button {
+	margin-left: 50% !important;
+    margin-top: -34px !important;
+}
+/*** view all tasks Pagination styles end ***/
+
+/***All dialog border styling start***/
+.green-border {
+	border-color: #5cb85c !important;
+}
+.blue-border {
+	border-color: #337AD4 !important;
+}
+.red-border {
+	border-color: #d9534f !important;
+}
+.orange-border {
+	
+}
+/***All dialog border styling end***/
+
+/*** datepicker styling start ***/
+
+/* #datepicker {
+	width : 250px !important;
+    margin-left : 74%;
+} */
+
+.c-event-grid {
+	width : 74% !important;	
+	height: 145% !important;
+}
+
+.c-grid {
+	width: 25% !important;
+    height: 145%;
+    margin-left: 5px;	
+}
+
+#viewMyTasksDetails {
+	width : 70%;
+}
+
+.ui-datepicker {
+	height: 66%;
+}
+.ui-datepicker table {
+	margin: 2% 0 .4em !important;
+}
+
+.ui-datepicker-calendar tr td a,.ui-datepicker-calendar tr td span {
+	width : 100% !important;
+} 
+
+
+.ui-datepicker-header {
+	background: #5cb85c !important;
+	color : #5cb85c !important;
+	border-color : #5cb85c !important; 
+	text-shadow: 0px 0px 20px white !important;
+	line-height: none !important;
+    border-width: none !important;
+    border-style: none !important;
+    border-color: none !important;
+    height: 11% !important;
+}
+
+.ui-datepicker-title span {
+	color: white !important;
+}
+/*** datepicker styling start ***/
+
+.dialog-position {
+	top: 135px !important;
+	left: 280px !important;
+}
+
+/*** width and height styling start ***/
+
+.width-25Per {
+	width: 25%;
+}
+
+.width-40per {
+	width: 42% !important;
+}
+
+.width-75Per {
+	width: 75%;
+}
+
+.width-65Per {
+	width: 65%;
+}
+
+.width-100Per {
+	width: 100% !important;
+}
+
+.width-101Per {
+	width: 101%;
+}
+
+.width-103Per {
+	width: 103%;
+}
+
+.height-70Per {
+	height: 70%;
+}
+
+.height-84Per {
+	height: 84%;
+}
+
+
+.form-control-try {
+	display: block;
+	width: 35%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.has-error .form-control-try {
+	border-color: #a94442;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+
+.has-error .form-control-try:focus {
+	border-color: #843534;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483
+}
+/*** width and height styling end ***/
+.pd-lt-0em {
+	padding-left: 0em;	
+}
+
+/*** width and height styling end ***/
+
+.panel-default .gray-heading {
+	color:#333 !important;
+	background-color:#f5f5f5 !important;
+	border-color:#ddd!important;
+}
+
+.c-event-list {
+	width : 100%;
+	overflow: auto !important;
+}
+
+.c-event-body {
+	overflow: auto;
+	background-color: #fff !important;
+	width : 99%;
+	height: 92%;
+}
+
+.trSelected {
+	background: #FFFF80 !important;
+}
+
+/* .myTaskTable {
+	width: 100% !important;
+} */
+
+.myTaskParent {
+	overflow: auto;
+    background-color: #fff !important;
+    width: 104%;
+    height: 106%;
+    margin-left: -2%;
+    margin-top: -2%;
+}
+
+.myTaskChild {
+	 height: 100%;
+	overflow: auto !important;
+}
+
+.mandatory {
+	color :red;
+	font-size: 14px;
+	
+}
+
+.modal-dialog {
+	width: 100% !important;
+}
+
+.modify-model-body {
+	padding: 5px !important;
+    height: 20% !important;
+}
+
+.padding-10px {
+	padding : 10px;
+}
+
+.submitLink {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  width: 59%;
+  margin-left : -8%;
+}
+
+.submitLink:focus {
+  outline: none;
+}
+
+.contextMenu {
+	width : 33% !important;
+}
+
+.contextMenu button span {
+	margin-left : 3%;
+}
+
+.on-hold-div {
+	width: 48% !important;
+    margin-left: -12%;
+    margin-top: -1%;
+}
+
+.closed-div {
+	width: 0% !important;
+    margin-left: -22%;
+    margin-top: -1%;
+}
+
+.spanFont {
+	font: normal normal normal 10px/1 FontAwesome !important;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.status-mg {
+	margin-left: -4% !important;
+    margin-top: 1% !important;
+}
+
+.open-status {
+	background: red;
+    color: white;
+}
+.wip-status {
+	background: yellow;
+    color: white;
+}
+.completed-status {
+	background: olive;
+    color: white;
+}
+
+.table tbody tr td a {
+	text-decoration: none;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    font-size: 11px !important;
+    color: black;
+}
+
+.button-div {
+	float: right;
+	margin-top: -8px;
+    margin-right: 5px;
+}
+.actual-efforts {
+	width: 60px;
+    height: 25px;
+}
+.title-box .button-div {
+	margin-top : 0%;
+}
+.page-header-dashboard {
+	padding-bottom: 9px;
+	margin: 10px 0 10px;
+	border-bottom: 1px solid #eee
+}
+
+/* /* An ugly trick to use a filter icon */
+.ui-icon-volume-off.ui-icon-filter {
+	-ms-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+} */
